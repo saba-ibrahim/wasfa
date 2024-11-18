@@ -1,0 +1,153 @@
+/*!
+Theme Name: wasfa
+Theme URI: http://wasfa.com
+Author: Saba Ibrahim
+Author URI:www.wasfa.com
+Description: موقع للوصفات الطبيعية ووصفات الطبخ
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wasfa
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+body {
+    text-align:center;
+    direction: rtl;
+    background-color:#F7F9F9 ;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+     color:black;
+    margin-top: 20px;
+}
+ img {
+    max-width:100%;
+    height: auto;
+           }
+img.logo{border-radius: 100%}
+.up-header {
+    background-color: #EFF7E3;
+    padding: 10px 0px;
+    font-size: 20px;
+    text-align: right;
+    color: black;
+}
+ header {
+    background-color: #FDEEF4;
+    color: black;
+     
+}
+header.entry-header{margin-top: 20px;}
+
+
+header ul.nav-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+header ul.nav-menu li {
+    display: inline-block;
+    position: relative;
+
+}
+
+header  ul.nav-menu li a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #F9B7FF;
+    color: black;
+    border-radius:100px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+header ul.nav-menu li a:hover {
+    background-color: #FDEEF4;
+}
+
+
+header  ul.nav-menu li ul {
+    position: absolute;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    top: 34px;
+    right: 0px;
+    background-color: #FDEEF4;
+    display: none;}
+
+header  .nav-menu ul li ul li {display: block;}
+
+header  .nav-menu li:hover ul {display: block;}
+
+
+
+
+.h1{
+    text-align: right;
+    color: black;
+    margin-top: 20px;
+}
+
+.face{ 
+margin-top: 20px;
+background-color: #FCDFFF;
+text-align: right;
+padding: 20px;
+color: black;
+}
+
+.page-output{
+    padding: 30px;
+    
+}
+.page-output h2 .page-title{
+    
+    padding: 20px;
+    text-align: right;
+    color: black;
+}
+.contact-form{
+    padding: 30px;
+    
+    }
+.contact-form label{
+    display: block;
+    text-align: start;
+    color: black;
+    
+}
+.contact-form input{
+    margin-bottom: 20px;
+    display: block;
+    text-align: right;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 150px;
+}
+.sidebar{
+    margin-top: 10px;
+    background-color: lavenderblush;
+    padding-left: 50px;
+    
+
+}
+.sidebar ul li a{
+    color: black;
+}
+
+/* start footer*/
+footer{
+    margin-top: 10px;
+    background-color: #FDEEF4;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
